@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disable-selection{
+    -webkit-user-select: none;
+}
+
+body::-webkit-scrollbar,
+.styled-bar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track,
+.styled-bar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb,
+.styled-bar::-webkit-scrollbar-thumb {
+  background-color: rgb(45,41,37);
+  padding: 4px;
+}
+
+body::-webkit-scrollbar-button,
+.styled-bar::-webkit-scrollbar-button {
+  display: none;
+}
